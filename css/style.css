@@ -236,3 +236,68 @@ body{
     margin: 0 .5rem .7rem;
 }
 
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
+    }
+
+    .diferenciales {
+        background-color: var(--cinza-claro);
+    }
+
+    .diferenciales__lista {
+        justify-content: space-around;
+    }
+
+    .institucional__contenido {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .institucional__video {
+        align-self: flex-end;
+
+        width: 375px;
+    }
+
+    .institucional__contacto-email {
+        display: block;
+    }
+
+    .footer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .footer__navegacion {
+        text-align: left;
+        min-width: 600px;
+    }
+
+    .sobre-nosotros {
+        display: flex;
+    }
+
+    .sobre-nosotros__contenido {
+        margin-right: 3rem;
+    }
+
+    .sobre-nosotros__titulo {
+        text-align: left;
+    }
+
+    .sobre-nosotros__texto--division {
+        border-bottom: 1px solid var(--cinza-medio);
+
+        padding-bottom: 1.5rem;
+    }
+
+    .sobre-nosotros__imagen {
+        display: block;
+    }
+    
+}
