@@ -191,10 +191,11 @@ body{
 
 .institucional__contacto-telefono {
     line-height: normal;
+    color: var(--fuente-enlace);
 }
 
 .institucional__contacto-email {
-    color: var(--fuente-ceniza-oscuro);
+    color: var(--fuente-enlace);
     text-decoration: underline;
     display: block;
 }
@@ -234,6 +235,15 @@ body{
 .footer__enlace {
     display: inline-block;
     margin: 0 .5rem .7rem;
+}
+
+@media screen and (min-width:768px) {
+    .institucional__contacto-email{
+        display: inline-block;
+    }
+    .institucional__video{
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -299,5 +309,4 @@ body{
     .sobre-nosotros__imagen {
         display: block;
     }
-    
 }
