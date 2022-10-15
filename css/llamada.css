@@ -2,9 +2,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #FFFFFF;
+    color: var(--background-blanco);
     text-align: center;
-    background-color: #00161C;
+    background-color: var(--background-llamada-mobile);
     padding-top: 12.25rem;
     padding-bottom: 2.5rem;
 }
@@ -26,3 +26,4 @@
 .llamada__boton {
     width: 100%;
 }
+
